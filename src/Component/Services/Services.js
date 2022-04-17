@@ -1,19 +1,28 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import Service from '../Service/Service';
 import './Services.css'
 
-const services =[
-    {id:1, name: 'beef curry', price: '180bdt', description:'', img: 'http://www.whilemyboyfriendwassleeping.com/wp-content/uploads/2010/07/my-pugs-holistic-food-2.jpg'},
-    {id:2, name: 'camel curry', price: '180bdt', description:'', img: 'http://www.whilemyboyfriendwassleeping.com/wp-content/uploads/2010/07/my-pugs-holistic-food-2.jpg'},
-    {id:3, name: 'sheep curry', price: '180bdt', description:'', img: 'http://www.whilemyboyfriendwassleeping.com/wp-content/uploads/2010/07/my-pugs-holistic-food-2.jpg'},
-    {id:4, name: 'duck curry', price: '180bdt', description:'', img: 'http://www.whilemyboyfriendwassleeping.com/wp-content/uploads/2010/07/my-pugs-holistic-food-2.jpg'},
-    {id:5, name: 'chicken curry', price: '180bdt', description:'', img: 'http://www.whilemyboyfriendwassleeping.com/wp-content/uploads/2010/07/my-pugs-holistic-food-2.jpg'},
-    {id:6, name: 'mutton curry', price: '180bdt', description:'', img: 'http://www.whilemyboyfriendwassleeping.com/wp-content/uploads/2010/07/my-pugs-holistic-food-2.jpg'}
-]
 
 const Services = () => {
+    const [services, setServices] = useState([])
+
+    useEffect(() =>{
+        fetch('services.json')
+        .then(res => res.json())
+        .then (data => setServices(data))
+    },[])
     return (
         <div>
-            <h3>services: {services.length}</h3>
+            <h1 className='text-primary text-bold'> Our Food Menu</h1>
+            <div className="services-container">
+            {
+                services.map(service => <Service
+                key={service.id}
+                service={service}
+                ></Service>)
+            }
+            
+            </div>
         </div>
     );
 };

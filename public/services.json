@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1, 
+        "name": "beef curry",
+        "price": "180BDT",
+        "description":"lorem",
+        "img": "http://www.ibreatheimhungry.com/wp-content/uploads/2017/07/dijon-chicken-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "camel curry",
+        "price": "180BDT", 
+        "description":"lorem",
+        "img": "https://www.springfieldpoultry.co.uk/wp-content/uploads/2020/07/Honey-Garlic-Chicken-IMAGE-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "sheep curry",
+        "price": "180BDT",
+        "description":"lorem", 
+        "img": "https://www.eatwell101.com/wp-content/uploads/2017/05/easy-chicken-dinner-recipes.jpg"
+    },
+    {
+        "id": 4,
+        "name": "duck curry",
+        "price": "180BDT",
+       "description":"",
+        "img": "https://www.eatwell101.com/wp-content/uploads/2017/05/easy-chicken-dinner-recipes.jpg"
+    },
+    {
+        "id": 5,
+        "name": "chicken curry",
+        "price": "180BDT",
+        "description":"lorem", 
+        "img": "https://i.pinimg.com/736x/ef/7d/dd/ef7ddd23eed440f0c1df7231d6e28135.jpg"
+    },
+    {
+        "id": 6,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.pinimg.com/736x/ef/7d/dd/ef7ddd23eed440f0c1df7231d6e28135.jpg"
+    }
+]
