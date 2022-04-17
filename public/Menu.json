@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "full mutton biriyani",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4W9njW7/Download.jpg"
+    },
+    {
+        "id": 2,
+        "name": "full duck biriyani",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4W9njW7/Download.jpg"
+    }
+]

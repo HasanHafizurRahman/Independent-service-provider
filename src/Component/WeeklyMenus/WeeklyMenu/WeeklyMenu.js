@@ -1,9 +1,8 @@
-import './Service.css'
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Service = ({service}) => {
-    const {name,id, img, description, price} = service;
+const WeeklyMenu = ({weeklyMenu}) => {
+    const {name,id, img, description, price} = weeklyMenu;
     const navigate = useNavigate()
     const handleNavigateServiceDetail = id =>{
 navigate(`/service/${id}`)
@@ -20,4 +19,4 @@ navigate(`/service/${id}`)
     );
 };
 
-export default Service;
+export default WeeklyMenu;

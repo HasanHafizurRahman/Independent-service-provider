@@ -2,10 +2,12 @@ import './Footer.css'
 import React from 'react';
 
 const Footer = () => {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
         
         <footer>
-            <small>Copyright © to home catering sevice 2022.</small>
+            <small>Copyright © to home food catering sevice {year}.</small>
         </footer>
     );
 };
