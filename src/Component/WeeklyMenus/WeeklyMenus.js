@@ -22,14 +22,14 @@ const WeeklyMenus = () => {
                 ></WeeklyMenu>)
             }
             <>
-            <h3>Our Outlets:
+            <h3 className='text-primary fw-bold mt-5 p-5'>Our Outlets:
                 
             <h5>Baridhara J Block,</h5>
                 <h5>Baridhara DOH</h5>
+                <h5>Mirpur DOH</h5>
+                <h5>Banaani</h5>
                 <h5>Baridhara DOH</h5>
-                <h5>Baridhara DOH</h5>
-                <h5>Baridhara DOH</h5>
-                <h5>Baridhara DOH</h5>
+                <h5>Bhatara Gulshan</h5>
             </h3>
                 
                 </>
